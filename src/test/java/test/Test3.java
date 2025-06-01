@@ -32,7 +32,7 @@ public class Test3 extends Base {
     			flag=true;
     	else
     		flag=false;
-    	Assert.assertFalse(flag,"The title does not match");
+    	Assert.assertTrue(flag,"The title does not match");
     }
     
 }
